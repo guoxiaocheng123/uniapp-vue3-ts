@@ -1,7 +1,6 @@
 <script setup lang="ts">
 // 获取安全区域
 const { safeAreaInsets } = uni.getSystemInfoSync()
-console.log(safeAreaInsets)
 </script>
 
 <template>
