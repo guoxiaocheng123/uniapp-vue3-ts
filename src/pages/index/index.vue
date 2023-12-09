@@ -1,9 +1,12 @@
 <script setup lang="ts">
-//
+import CustomNavbar from './components/CustomNavbar.vue'
 </script>
 
 <template>
-  <view class="index">index</view>
+  <!-- 导航栏 -->
+  <CustomNavbar />
+  <!-- 轮播图 -->
+  <XtxSwiper />
 </template>
 
 <style lang="scss">
